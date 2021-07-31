@@ -14,7 +14,7 @@ def collatz(start):
 num_list = collatz(27)
 
 num_arr = np.array(num_list)
-y = np.arange(1, len(num_list)+1)
+y = np.arange(1, len(num_arr)+1)
 
 plt.plot(y, num_arr, color="red")
 plt.show()
